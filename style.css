@@ -25,13 +25,24 @@ h1, h2, a {
     /* border: solid white; */
     justify-content: space-evenly;
     
-    
+    /* the class ess is just so i can individually style the items in essentials */
 }
 
+.ess {
+      border: solid #000000;
+      background-color: whitesmoke;
+}
+    
+
+
+
 h4 {
-    color: #d87093;
     font-size: large;
-    text-decoration: underline black;
+    border: solid black;
+    background-color: #d87093;
+    display: flex;
+    width: max-content;
+
 }
 
 .info {
@@ -61,6 +72,9 @@ h4 {
     /* border: solid black; */
     font-family: monospace;
     font-size: larger;
+    padding: 50px;
+     background-color: white;
+     margin-bottom: 35px;
  }
 
  .menu > div {
@@ -69,3 +83,4 @@ h4 {
     flex: 1;
 
  }
+
